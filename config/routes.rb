@@ -1,6 +1,10 @@
 SonnetMe::Application.routes.draw do
   get "static_pages/home"
   get "static_pages/more"
+  get "static_pages/sonnet1"
+  get "static_pages/sonnet2"
+  get "static_pages/sonnet3"
+  get "static_pages/sonnet4"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
