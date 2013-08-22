@@ -17,4 +17,7 @@ class StaticPagesController < ApplicationController
   def sonnet4
   end
   
+  def sonnet5
+  end
+  
 end

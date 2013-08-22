@@ -5,6 +5,7 @@ SonnetMe::Application.routes.draw do
   match '/sonnet2',    to: 'static_pages#sonnet2',    via: 'get'
   match '/sonnet3',    to: 'static_pages#sonnet3',    via: 'get'
   match '/sonnet4',    to: 'static_pages#sonnet4',    via: 'get'
+  match '/sonnet5',    to: 'static_pages#sonnet5',    via: 'get'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
