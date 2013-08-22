@@ -1,10 +1,10 @@
 SonnetMe::Application.routes.draw do
-  get "static_pages/home"
-  get "static_pages/more"
-  get "static_pages/sonnet1"
-  get "static_pages/sonnet2"
-  get "static_pages/sonnet3"
-  get "static_pages/sonnet4"
+  root  'static_pages#home'
+  match '/more',    to: 'static_pages#more',    via: 'get'
+  match '/sonnet1',    to: 'static_pages#sonnet1',    via: 'get'
+  match '/sonnet2',    to: 'static_pages#sonnet2',    via: 'get'
+  match '/sonnet3',    to: 'static_pages#sonnet3',    via: 'get'
+  match '/sonnet4',    to: 'static_pages#sonnet4',    via: 'get'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
